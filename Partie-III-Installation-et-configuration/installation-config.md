@@ -44,7 +44,7 @@ sudo nano /etc/ssh/sshd_config
 
 Ligne **`PermitRootLogin`** :
 
-![Ligne PermitRootLogin dans sshd_config](images/03-nano-permitrootlogin.png)
+![Ligne PermitRootLogin dans sshd_config](images/03.2-nano-permitrootlogin.png)
 
 Ligne **`X11Forwarding`** :
 
