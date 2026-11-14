@@ -10,7 +10,7 @@ Sur le **Raspberry Pi** (le serveur), on installe le paquet `openssh-server` :
 sudo apt install openssh-server
 ```
 
-![Installation openssh-server](images/00-apt-openssh-server.png)
+![Installation openssh-server](images/00.2-apt-openssh-server.png)
 
 > Dans notre cas, `openssh-server` était déjà installé (version la plus récente) : le service est donc déjà disponible.
 
