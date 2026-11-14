@@ -74,12 +74,12 @@ Génération finale, cette fois **sur le PC Windows (client)** :
 
 | Fichier | Rôle |
 |---|---|
-| `C:\Users\Clara\.ssh\id_rsa` | clé **privée** — reste sur le client, **ne se partage jamais** |
-| `C:\Users\Clara\.ssh\id_rsa.pub` | clé **publique** — c'est elle qu'on envoie au serveur |
+| `C:\Users\Clara\.ssh\id_rsa` | clé **privée** : reste sur le client, **ne se partage jamais** |
+| `C:\Users\Clara\.ssh\id_rsa.pub` | clé **publique** : c'est elle qu'on envoie au serveur |
 
 ### À quoi sert la passphrase ?
 
-La passphrase **chiffre la clé privée** sur le disque. Elle sera redemandée à chaque connexion (tant qu'on n'utilise pas l'agent SSH — voir [partie VI](../Partie-VI-Se-connecter-sans-mot-de-passe/agent-ssh.md)).
+La passphrase **chiffre la clé privée** sur le disque. Elle sera redemandée à chaque connexion (tant qu'on n'utilise pas l'agent SSH —> voir [partie VI](../Partie-VI-Se-connecter-sans-mot-de-passe/agent-ssh.md)).
 
 ### Empreinte et randomart
 
