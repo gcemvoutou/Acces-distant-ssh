@@ -63,7 +63,7 @@ cat hash.txt
 
 > On obtient une ligne de la forme `toto:$1$....:1001:1001::/home/toto:/bin/bash`.
 
-![Hash de toto dans hash.txt](images/03.2-hash-toto.png)
+![Hash de toto dans hash.txt](images/03-hash-toto.png)
 
 ### Étape 4 — Récupérer un dictionnaire (rockyou)
 
