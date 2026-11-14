@@ -83,7 +83,7 @@ La passphrase **chiffre la clé privée** sur le disque. Elle sera redemandée �
 
 ### Empreinte et randomart
 
-L'**empreinte (fingerprint)** est un hash SHA256 de la clé publique, qui permet de l'identifier de façon courte. Le **randomart** est la représentation visuelle de cette empreinte : chaque clé produit un dessin unique, ce qui permet de vérifier rapidement qu'il s'agit bien de la bonne clé. Le commentaire en fin de ligne (`clara@DESKTOP-1QLEJ6F`) indique l'utilisateur et la machine qui ont créé la clé.
+L'**empreinte (fingerprint)** est un hash SHA256 de la clé publique, qui permet de l'identifier de façon courte. Le **randomart** est la représentation visuelle de cette empreinte : chaque clé produit un dessin unique, ce qui permet de vérifier rapidement qu'il s'agit bien de la bonne clé.
 
 ---
 
