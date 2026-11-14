@@ -108,7 +108,10 @@ VNC n'étant **pas un protocole web**, on ne peut pas l'ouvrir dans un navigateu
 
 Dans le champ **« VNC server »**, on saisit `localhost:5901`, puis **Connect** :
 
-![Fenêtre TigerVNC](images/05-tigervnc-fenetre.png)
+![Fenêtre TigerVNC](images/05.2-tigervnc-fenetre.png)
+
+Après avoir accepté le certificat, TigerVNC demande l’identifiant clara et le mot de passe Linux du Raspberry.
+![Fenêtre TigerVNC](images/09-bureau-raspberry-vnc.png)
 
 Le serveur VNC du Raspberry utilise un **certificat auto-signé** (`CN=raspberrypi`), que TigerVNC signale comme émis par une autorité inconnue. On accepte l'exception — même principe que l'empreinte du serveur acceptée lors de la première connexion SSH :
 
