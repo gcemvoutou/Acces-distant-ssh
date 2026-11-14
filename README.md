@@ -91,5 +91,3 @@ SSH (*Secure SHell*) est un protocole qui établit une liaison **chiffrée** ent
 - Sécurité offensive / défensive : démonstration de cassage de mot de passe (John the Ripper)
 
 ---
-
-*TP réalisé dans le cadre du BTS SIO option SISR — Clara EMVOUTOU.*
