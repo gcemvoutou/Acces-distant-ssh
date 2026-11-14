@@ -84,7 +84,7 @@ wget https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.tx
 gunzip rockyou.txt.gz
 ```
 
-![Téléchargement de rockyou.txt](images/05-wget-rockyou.png)
+![Téléchargement de rockyou.txt](images/05.2-wget-rockyou.png)
 
 ### Étape 5 — Lancer le cassage
 
@@ -93,7 +93,7 @@ john --format=md5crypt hash.txt --wordlist=rockyou.txt
 john --show hash.txt
 ```
 
-![Cassage du hash avec John](images/06-john-cassage.png)
+![Cassage du hash avec John](images/06.2-john-cassage.png)
 
 **Résultat :** John retrouve le mot de passe `toto` de l'utilisateur `toto` en **quelques secondes** (`1 password hash cracked`), car ce mot de passe figure dans la liste `rockyou`.
 
