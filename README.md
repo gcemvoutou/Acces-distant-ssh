@@ -1,7 +1,6 @@
 # Accès à distance par SSH — TP BTS SIO SISR
 
 > Mise en place et sécurisation d'un accès à distance par **SSH** sur un **Raspberry Pi 4** (serveur, sous Debian 13 « trixie »), depuis un **poste client Windows**.
-> Ce dépôt documente l'intégralité du TP : du durcissement des mots de passe jusqu'aux tunnels SSH, en passant par l'authentification par clé et le transfert de fichiers.
 
 ---
 
