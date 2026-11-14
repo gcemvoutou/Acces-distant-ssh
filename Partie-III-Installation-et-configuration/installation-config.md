@@ -48,7 +48,7 @@ Ligne **`PermitRootLogin`** :
 
 Ligne **`X11Forwarding`** :
 
-![Ligne X11Forwarding dans sshd_config](images/04-nano-x11forwarding.png)
+![Ligne X11Forwarding dans sshd_config](images/04.2-nano-x11forwarding.png)
 
 > Ces lignes sont **commentées par défaut** (préfixées d'un `#`). Pour les activer, il faut les **décommenter** (retirer le `#`).
 >
