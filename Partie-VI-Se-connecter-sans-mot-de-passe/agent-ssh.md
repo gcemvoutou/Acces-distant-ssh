@@ -57,7 +57,7 @@ Après une suppression, `ssh-add -l` affiche **`The agent has no identities`** :
 
 Suppression de **toutes** les clés avec `-D` :
 
-![ssh-add -D supprime toutes les clés](images/04-ssh-add-D-toutes-cles.png)
+![ssh-add -D supprime toutes les clés](images/04.2-ssh-add-D-toutes-cles.png)
 
 ## 5. Conséquence : la passphrase revient
 
