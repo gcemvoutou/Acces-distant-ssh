@@ -103,12 +103,12 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub login@machine
 type %USERPROFILE%\.ssh\id_rsa.pub | ssh clara@192.168.0.206 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
-![ssh-copy-id — clé ajoutée](images/02-ssh-copy-id-key-added.png)
+![ssh-copy-id — clé ajoutée](images/02.2-ssh-copy-id-key-added.png)
 
 > **Pourquoi lancer la commande depuis le client et pas depuis une session SSH sur le serveur ?**
 > La clé publique se trouve **sur le PC client**. Une fois connecté au Raspberry en SSH, on n'a plus accès aux fichiers du PC. Lancer l'envoi depuis le serveur reviendrait à envoyer **sa propre clé**, et non celle du client qui doit se connecter.
 
-Le message `Number of key(s) added: 1` confirme que la clé a bien été copiée.
+Cette commande n’affiche aucun message de confirmation : après la saisie du mot de passe, l’invite revient simplement. On vérifie que la clé a bien été ajoutée à l’étape suivante (authorized_keys).
 
 ### Étape 3 — Vérifier
 
