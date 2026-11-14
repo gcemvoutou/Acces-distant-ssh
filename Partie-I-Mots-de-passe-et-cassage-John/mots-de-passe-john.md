@@ -77,7 +77,7 @@ cat /etc/os-release
 
 ![cat /etc/os-release](images/04.2-os-release.png)
 
-Le paquet `wordlists` (qui contient `rockyou.txt`) **n'existe pas sur Debian** — il est propre à Kali Linux. On télécharge donc `rockyou.txt` directement depuis GitHub :
+Le paquet `wordlists` (qui contient `rockyou.txt`) **n'existe pas sur Debian** il est propre à Kali Linux. On télécharge donc `rockyou.txt` directement depuis GitHub :
 
 ```bash
 wget https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.txt.gz
