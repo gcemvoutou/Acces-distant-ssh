@@ -1,3 +1,5 @@
+[Partie suivante →Mot de passe](../Partie-I-Mots-de-passes-et-cassage-John/mots-de-passe-john.md)
+
 # Accès à distance par SSH — TP BTS SIO SISR
 
 > Mise en place et sécurisation d'un accès à distance par **SSH** sur un **Raspberry Pi 4** (serveur, sous Debian 13 « trixie »), depuis un **poste client Windows**.
